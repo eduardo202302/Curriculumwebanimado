@@ -4,9 +4,7 @@ import { useRef, useState } from "react";
 import { 
   FaReact, 
   FaNodeJs, 
-  FaDocker, 
   FaGitAlt, 
-  FaAws, 
   FaFigma 
 } from "react-icons/fa";
 import { 
@@ -15,7 +13,10 @@ import {
   SiTailwindcss, 
   SiExpress, 
   SiPostgresql, 
-  SiMongodb 
+  SiMongodb,
+  SiMysql,
+  SiJira,
+  SiKx
 } from "react-icons/si";
 
 interface Skill {
@@ -39,9 +40,10 @@ export function Skills() {
     { name: "Express", icon: SiExpress, category: "backend", color: "#000000" },
     { name: "PostgreSQL", icon: SiPostgresql, category: "backend", color: "#4169E1" },
     { name: "MongoDB", icon: SiMongodb, category: "backend", color: "#47A248" },
-    { name: "Docker", icon: FaDocker, category: "tools", color: "#2496ED" },
+    { name: "MySQL", icon: SiMysql, category: "backend", color: "#4479A1" },
+    { name: "Jira", icon: SiJira, category: "tools", color: "#0052CC" },
+    { name: "Knex.js", icon: SiKx, category: "tools", color: "#000000" },
     { name: "Git", icon: FaGitAlt, category: "tools", color: "#F05032" },
-    { name: "AWS", icon: FaAws, category: "tools", color: "#FF9900" },
     { name: "Figma", icon: FaFigma, category: "tools", color: "#F24E1E" },
   ];
 

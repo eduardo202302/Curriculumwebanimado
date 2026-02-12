@@ -61,11 +61,7 @@ export function About() {
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ delay: 0.6 }}
           >
-            Soy un desarrollador web full stack apasionado por crear experiencias digitales 
-            excepcionales. Con más de X años de experiencia, me especializo en construir 
-            aplicaciones web modernas, rápidas y accesibles utilizando las últimas tecnologías 
-            del mercado. Mi objetivo es transformar ideas en productos digitales que marquen 
-            la diferencia.
+            “Busco contribuir al crecimiento de una empresa mediante la creación de aplicaciones web robustas, escalables y centradas en el usuario. Mi meta es seguir perfeccionando mis habilidades en desarrollo full stack con tecnologías modernas como React, Node.js".
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

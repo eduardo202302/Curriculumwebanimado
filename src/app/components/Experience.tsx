@@ -17,38 +17,30 @@ export function Experience() {
 
   const jobs: Job[] = [
     {
-      company: "Tech Company Inc.",
-      position: "Senior Full Stack Developer",
-      period: "2023 - Presente",
+      company: "IKOMPRAS S.R.L.",
+      position: "Desarrollador de back-end con Node.js",
+      period: "2025 - Presente",
       description:
         "Liderando el desarrollo de aplicaciones web escalables y optimizadas.",
       achievements: [
-        "Mejoré el rendimiento de la aplicación principal en un 40%",
-        "Implementé arquitectura de microservicios",
-        "Mentoré a 3 desarrolladores junior",
+        "Desarrollé APIs RESTful con Node.js para la gestión eficiente de recursos y autenticación de usuarios.",
+        "Diseñé y administré bases de datos MySQL, modelando relaciones, claves foráneas e índices para optimizar consultas.",
+        "Implementé migraciones de base de datos utilizando herramientas como Knex.js para el versionado y control estructurado del esquema.",
+        "Optimicé consultas SQL reduciendo tiempos de respuesta y mejorando el rendimiento general del sistema.",
+        "Apliqué buenas prácticas de arquitectura backend, validación de datos y manejo estructurado de errores.",
       ],
     },
     {
-      company: "Startup Digital",
-      position: "Full Stack Developer",
-      period: "2021 - 2023",
+      company: "DEVDATEP CONSULTING",
+      position: "Desarrollador React Jr",
+      period: "2025 - 2025",
       description:
         "Desarrollo de soluciones web innovadoras para clientes diversos.",
       achievements: [
-        "Desarrollé 15+ proyectos desde cero",
-        "Implementé CI/CD y automatización de pruebas",
-        "Reduje el tiempo de deployment en un 60%",
-      ],
-    },
-    {
-      company: "Agencia Creativa",
-      position: "Frontend Developer",
-      period: "2020 - 2021",
-      description: "Creación de interfaces modernas y responsive.",
-      achievements: [
-        "Diseñé y desarrollé 20+ landing pages",
-        "Implementé design system de la empresa",
-        "Logré 100% de accesibilidad en todos los proyectos",
+        "Desarrollé más de 5 aplicaciones web desde cero utilizando React.js, implementando componentes reutilizables y renderizado dinámico.",
+        "Optimicé el rendimiento de las aplicaciones mediante mejoras en la gestión de estado, reducción de renderizados innecesarios y buenas prácticas de arquitectura.",
+        "Reestructuré la organización del frontend para mejorar la escalabilidad y mantenibilidad del código.",
+        "Colaboré en revisiones de código y aplicación de buenas prácticas para garantizar calidad y consistencia en el desarrollo.",
       ],
     },
   ];
@@ -129,7 +121,9 @@ export function Experience() {
                             key={i}
                             initial={{ opacity: 0, x: -20 }}
                             animate={
-                              isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }
+                              isInView
+                                ? { opacity: 1, x: 0 }
+                                : { opacity: 0, x: -20 }
                             }
                             transition={{
                               delay: 1 + index * 0.2 + i * 0.1,

@@ -26,9 +26,8 @@ export function Hero() {
   };
 
   const socialIcons = [
-    { Icon: Github, href: "https://github.com", label: "GitHub" },
-    { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { Icon: Mail, href: "mailto:tu@email.com", label: "Email" },
+    { Icon: Linkedin, href: "https://www.linkedin.com/in/eduardo-vallejo-97823a311/", label: "LinkedIn" },
+    { Icon: Mail, href: "mailto:eduardovallejo5toa@gmail.com", label: "Gmail" },
   ];
 
   return (
@@ -81,7 +80,7 @@ export function Hero() {
               whileHover={{ scale: 1.05, rotate: 5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <span className="text-6xl">👨‍💻</span>
+              <img src="https://media.licdn.com/dms/image/v2/D4E03AQF4FGcn6ULnpQ/profile-displayphoto-scale_200_200/B4EZrur99HGoAc-/0/1764941098493?e=1772668800&v=beta&t=YFG2tQQl_0iLHCbdRHyXTSkBnnXbRX5v2-GhO38cq4I" className="rounded-full border-2" alt="" />
             </motion.div>
           </motion.div>
 
@@ -95,7 +94,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              Tu Nombre
+              Eduardo Andres Vallejo Zabala
             </motion.span>
           </motion.h1>
 
@@ -139,16 +138,6 @@ export function Hero() {
               </motion.a>
             ))}
           </motion.div>
-
-          <motion.button
-            variants={itemVariants}
-            className="px-8 py-3 bg-primary-foreground text-primary rounded-full inline-flex items-center gap-2 hover:bg-primary-foreground/90 transition-colors"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Download className="w-5 h-5" />
-            Descargar CV
-          </motion.button>
         </div>
       </motion.div>
 
