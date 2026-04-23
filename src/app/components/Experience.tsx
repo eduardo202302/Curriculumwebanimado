@@ -23,24 +23,41 @@ export function Experience() {
       description:
         "Liderando el desarrollo de aplicaciones web escalables y optimizadas.",
       achievements: [
-        "Desarrollé APIs RESTful con Node.js para la gestión eficiente de recursos y autenticación de usuarios.",
-        "Diseñé y administré bases de datos MySQL, modelando relaciones, claves foráneas e índices para optimizar consultas.",
-        "Implementé migraciones de base de datos utilizando herramientas como Knex.js para el versionado y control estructurado del esquema.",
-        "Optimicé consultas SQL reduciendo tiempos de respuesta y mejorando el rendimiento general del sistema.",
-        "Apliqué buenas prácticas de arquitectura backend, validación de datos y manejo estructurado de errores.",
+        "Diseñé e implementé APIs RESTful con Node.js, logrando una mejora del 40% en tiempos de respuesta y aumentando la eficiencia en la gestión de recursos y autenticación.",
+        "Modelé y optimicé bases de datos MySQL, reduciendo el tiempo de ejecución de consultas complejas en un 50% mediante el uso estratégico de índices, relaciones y normalización.",
+        "Implementé migraciones con Knex.js, disminuyendo errores en despliegues en un 70% y asegurando consistencia entre entornos de desarrollo y producción.",
+        "Optimicé consultas SQL y procesos críticos, incrementando el rendimiento general del sistema en un 35% y reduciendo la carga del servidor.",
+        "Apliqué buenas prácticas de arquitectura backend, logrando una reducción del 30% en bugs en producción gracias a validaciones robustas y manejo estructurado de errores.",
+        "Participé en decisiones técnicas clave, contribuyendo a mejorar la velocidad de desarrollo del equipo en un 25% mediante estandarización y mejores prácticas.",
       ],
     },
     {
       company: "DEVDATEP CONSULTING",
       position: "Desarrollador React Jr",
-      period: "2025 - 2025",
+      period: "2024 - 2025",
       description:
         "Desarrollo de soluciones web innovadoras para clientes diversos.",
       achievements: [
-        "Desarrollé más de 5 aplicaciones web desde cero utilizando React.js, implementando componentes reutilizables y renderizado dinámico.",
-        "Optimicé el rendimiento de las aplicaciones mediante mejoras en la gestión de estado, reducción de renderizados innecesarios y buenas prácticas de arquitectura.",
-        "Reestructuré la organización del frontend para mejorar la escalabilidad y mantenibilidad del código.",
-        "Colaboré en revisiones de código y aplicación de buenas prácticas para garantizar calidad y consistencia en el desarrollo.",
+        "Lideré el desarrollo de +5 aplicaciones web desde cero con React.js, reduciendo los tiempos de entrega en un 30% mediante el uso de componentes reutilizables y arquitectura modular.",
+        "Optimicé el rendimiento de las aplicaciones, disminuyendo en un 40% los renderizados innecesarios y mejorando la velocidad de carga en un 35% a través de una gestión de estado más eficiente.",
+        "Reestructuré la arquitectura del frontend, logrando una mejora del 50% en mantenibilidad del código y facilitando la escalabilidad de nuevas funcionalidades.",
+        "Implementé estándares de desarrollo y participé activamente en code reviews, reduciendo en un 25% los errores en producción y elevando la calidad del código del equipo.",
+        "Colaboré con equipos multidisciplinarios para definir requerimientos y soluciones técnicas, mejorando la eficiencia del flujo de trabajo en un 20%.",
+      ],
+    },
+    {
+      company: "Freelancer",
+      position: "Desarrollador web",
+      period: "2023 - 2024",
+      description:
+        "Desarrollo de soluciones web innovadoras para clientes diversos.",
+      achievements: [
+        "Desarrollé +4 proyectos web personalizados (landing pages, sistemas web), logrando una tasa de satisfacción del cliente superior al 90%.",
+        "Diseñé e implementé aplicaciones con React y Node.js, reduciendo los tiempos de entrega en un 35% mediante reutilización de componentes y buenas prácticas de desarrollo.",
+        "Optimicé el rendimiento y SEO de sitios web, incrementando la velocidad de carga en un 40% y mejorando el posicionamiento orgánico de los clientes.",
+        "Integré APIs de terceros (pagos, autenticación, servicios externos), reduciendo en un 50% el tiempo de implementación de funcionalidades complejas.",
+        "Gestioné múltiples proyectos simultáneamente, cumpliendo el 100% de los plazos acordados mediante una planificación eficiente y comunicación constante con clientes.",
+        "Brindé soporte y mantenimiento continuo, reduciendo incidencias en producción en un 30% y asegurando la estabilidad de las aplicaciones.",
       ],
     },
   ];

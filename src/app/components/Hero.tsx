@@ -80,7 +80,7 @@ export function Hero() {
               whileHover={{ scale: 1.05, rotate: 5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <img src="https://media.licdn.com/dms/image/v2/D4E03AQF4FGcn6ULnpQ/profile-displayphoto-scale_200_200/B4EZrur99HGoAc-/0/1764941098493?e=1772668800&v=beta&t=YFG2tQQl_0iLHCbdRHyXTSkBnnXbRX5v2-GhO38cq4I" className="rounded-full border-2" alt="" />
+              <img src="./image.png" className="rounded-full border-2" alt="" />
             </motion.div>
           </motion.div>
 
